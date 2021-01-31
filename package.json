@@ -14,10 +14,24 @@
     "vue",
     "ui"
   ],
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
+  },
   "author": "lcc",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/liuchongchong1995/gulu/issues"
   },
-  "homepage": "https://github.com/liuchongchong1995/gulu#readme"
+  "homepage": "https://github.com/liuchongchong1995/gulu#readme",
+  "dependencies": {
+    "button": "^1.1.1",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.5",
+    "vue-template-compiler": "^2.6.12"
+  }
 }
